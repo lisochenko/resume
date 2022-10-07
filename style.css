@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-seif;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #CCD6DD;
+}
+
+.info {
+  display: flex;
+  padding-bottom: 10px;
+
+}
+
+.info_text {
+  padding-left: 15px;
+}
+
+.social_list {
+  padding-top: 20%;
+}
+
+.container {
+  max-width: 700px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.avatar {
+  display: block;
+  border-radius: 10px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.card {
+  /* border: 2px solid black; */
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.table_work {
+  width: 100%;
+}
+
+.table_work td {
+  padding-bottom: 5px;
+}
+
+.hobby {
+  background-color: #F5F5DC;
+}
+
+.list {
+  padding-left: 17px;
+}
+
+.list li {
+  padding-bottom: 3px;
+}
+
+.work {
+  background-color: #FFF0F5;
+}
+
+
+.link_me {
+  background-color: #F0FFF0;
+
+}
+
+.link_me h2 {
+  text-align: center;
+}
+
+
+.form_group input,
+textarea {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  font-family: inherit;
+  background-color: transparent;
+  border-bottom: 1px solid #ccc;
+  color: black;
+  /* padding: 10px 0 5px; */
+}
+
+.form_group label {
+  display: block;
+  font-size: 17px;
+
+}
+
+.form_row {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.form_row,
+.form_group {
+  /* display: inline-block; */
+  margin-right: 20px;
+  width: 100%;
+}
+
+.form_row,
+.form_group:last-child {
+  margin-right: 0;
+}
+
+h2 {
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.btn {
+  margin-top: 5px;
+  background-color: steelblue;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 15px;
+}
+
+.btn:hover {
+  /* background-color: darkgoldenrod; */
+  color: #F5F5DC;
+  border: none;
+  /* font-size: 16px; */
+  opacity: .8;
+}
+
+.btn:visited {
+  background-color: red;
+}
+
+a {
+  text-decoration: none;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(0, 21, 255);
+  /* font-size: 1.2rem; */
+}
+
+@media (max-width: 650px) {
+  .avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .info_text h1 {
+    font-size: 25px;
+  }
+
+  .info {
+    display: block;
+    text-align: center;
+  }
+
+  .social_list {
+    padding-top: 0;
+  }
+
+  .form_row {
+    display: block;
+  }
+
+  .form_row .form_group {
+    margin-bottom: 10px;
+  }
+}
+
+
+
+
+
+
+
+/* .link_me {
+  background-color: bisque;
+}
+
+#message {
+  background-color: magenta;
+} */

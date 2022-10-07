@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="lisochenko, cv, resume">
+  <meta name="description" content="Это сайт - резюме Андрея Лисоченко">
+  <link rel="stylesheet" href="style.css">
+  <title>Anderew Resume</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="info">
+      <img class="avatar" src="avatar.png" width="150" alt="Аватар">
+      <div class="info_text">
+        <h1>Лисоченко Андрей</h1>
+        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, quae.</div>
+        <div>Lorem ipsum dolor sit amet consectetur.</div>
+        <div class="social_list">
+          <h4>Список социальных сетей:</h4>
+          <p><a href="https://vk.com/samlis" target="_blank">VK</a> | <a href="https://www.instagram.com/a.lisochenko/"
+              target="_blank">Instagram</a> | <a href="https://t.me/onion_fox" target="_blank">Telegram</a></p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <hr>
+
+    <section class="card hobby">
+      <h2>Мои хобби</h2>
+      <ol class="list">
+        <li>Лежать</li>
+        <li>Гулять</li>
+        <li>Кушать</li>
+        <li>Тусить</li>
+      </ol>
+    </section>
+
+    <hr>
+
+    <section class="card work">
+      <h2>Опыт работы</h2>
+      <table class="table_work">
+        <!-- <thead>
+        <tr>
+          <th>Название</th>
+          <th>Должность</th>
+          <th>Год</th>
+        </tr>
+      </thead> -->
+        <tbody>
+          <tr>
+            <td>MyMac</td>
+            <td>Инженер</td>
+            <td>2020-2022</td>
+          </tr>
+          <tr>
+            <td>MyMac</td>
+            <td>Инженер</td>
+            <td>2020-2022</td>
+          </tr>
+          <tr>
+            <td>MyMac</td>
+            <td>Инженер</td>
+            <td>2020-2022</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <hr>
+
+    <section class="card link_me">
+      <h2>Связаться со мной</h2>
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <div class="form_row">
+          <p class="form_group">
+            <label for="text">Ваше имя:</label>
+            <input type="text" id="text" name="name" placeholder="Введите имя">
+          </p>
+          <p class="form_group">
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" name="email" placeholder="Введите почту">
+          </p>
+        </div>
+        <p class="form_group">
+          <label for="message">Ваше сообщение:</label>
+          <textarea id="message" name="message" placeholder="Введите сообщение..."></textarea>
+        </p>
+        <button class="btn" type="submit">Отправить!</button>
+      </form>
+    </section>
+
+
+  </div>
+</body>
+
+</html>
